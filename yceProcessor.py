@@ -29,7 +29,7 @@ def processcharxml(dajson):
 #stage stuff
 
 def processstagexml(dajson,name,dasrc):
-  xml = f'''<!DOCTYPE codename-engine-stage>
+  xml = f'''<!DOCTYPE codename-engine-stage>
 <stage zoom="{str(dajson['defaultCamZoom'])}" name="{name}" folder="{dasrc}">'''
   
   for i in dajson["sprites"]:
